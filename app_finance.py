@@ -27,7 +27,7 @@ n_dias = st.slider('Quantidade de dias de previsão', 30, 360)
 
 
 def pegar_dados_acoes():
-    path = 'C:/Users/RROSA20/Desktop/scripts_ML/StreamLit/Financas/acoes.csv'
+    path = 'acoes.csv'
     
     return pd.read_csv(path,delimiter=';')
 
